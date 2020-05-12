@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pet Zoo Danger Game</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <header class="text-center"><h1>Pet Zoo Danger Game</h1></header>
+    <main class="container-fluid">
+      <div class="row d-flex justify-content-center">
+        <div class="col-4 text-center border">
+          <h2>Mammals</h2>
+          <button class="btn btn-danger mb-1" onclick="app.zoo.drawNewMammal()">
+            Add Mammal
+          </button>
+
+          <div id="mammals"></div>
+        </div>
+        <div class="col-4 text-center border">
+          <h2>Reptiles</h2>
+          <div id="reptiles"></div>
+        </div>
+        <div class="col-4 text-center border">
+          <h2>Birds</h2>
+          <div id="birds"></div>
+        </div>
+      </div>
+    </main>
+    <script></script>
+    <script src="app.js" type="module"></script>
+  </body>
+</html>
